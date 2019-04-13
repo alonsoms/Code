@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="5e339b99-95f7-4287-bb1e-70ea297a6123" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://e-beta.sunat.gob.pe/ol-ti-itcpfegem-beta/billService?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="billService.wsdl" MetadataType="Wsdl" ID="efb93658-c91a-41e9-8e61-39e5a26b4847" SourceId="1" SourceUrl="https://e-beta.sunat.gob.pe/ol-ti-itcpfegem-beta/billService?ns1.wsdl" />
+    <MetadataFile FileName="billService1.wsdl" MetadataType="Wsdl" ID="7e04b635-0cd4-4f47-a79f-a5b90428e25e" SourceId="1" SourceUrl="https://e-beta.sunat.gob.pe/ol-ti-itcpfegem-beta/billService?wsdl" />
+    <MetadataFile FileName="billService.xsd" MetadataType="Schema" ID="63f510f9-f854-40de-b18e-5b57771b90e3" SourceId="1" SourceUrl="https://e-beta.sunat.gob.pe/ol-ti-itcpfegem-beta/billService.xsd2.xsd" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

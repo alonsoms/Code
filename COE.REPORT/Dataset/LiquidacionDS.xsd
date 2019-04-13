@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="LiquidacionDS" targetNamespace="http://tempuri.org/LiquidacionDS.xsd" xmlns:mstns="http://tempuri.org/LiquidacionDS.xsd" xmlns="http://tempuri.org/LiquidacionDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="LiquidacionDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="LiquidacionDS" msprop:Generator_UserDSName="LiquidacionDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="coe_comprobante_rpt_liquidacion" msprop:Generator_TableClassName="coe_comprobante_rpt_liquidacionDataTable" msprop:Generator_TableVarName="tablecoe_comprobante_rpt_liquidacion" msprop:Generator_RowChangedName="coe_comprobante_rpt_liquidacionRowChanged" msprop:Generator_TablePropName="coe_comprobante_rpt_liquidacion" msprop:Generator_RowDeletingName="coe_comprobante_rpt_liquidacionRowDeleting" msprop:Generator_RowChangingName="coe_comprobante_rpt_liquidacionRowChanging" msprop:Generator_RowEvHandlerName="coe_comprobante_rpt_liquidacionRowChangeEventHandler" msprop:Generator_RowDeletedName="coe_comprobante_rpt_liquidacionRowDeleted" msprop:Generator_RowClassName="coe_comprobante_rpt_liquidacionRow" msprop:Generator_UserTableName="coe_comprobante_rpt_liquidacion" msprop:Generator_RowEvArgName="coe_comprobante_rpt_liquidacionRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Comprobantes" msprop:Generator_ColumnVarNameInTable="columnComprobantes" msprop:Generator_ColumnPropNameInRow="Comprobantes" msprop:Generator_ColumnPropNameInTable="ComprobantesColumn" msprop:Generator_UserColumnName="Comprobantes" type="xs:string" minOccurs="0" />
+              <xs:element name="Cantidad" msprop:Generator_ColumnVarNameInTable="columnCantidad" msprop:Generator_ColumnPropNameInRow="Cantidad" msprop:Generator_ColumnPropNameInTable="CantidadColumn" msprop:Generator_UserColumnName="Cantidad" type="xs:string" minOccurs="0" />
+              <xs:element name="Empresa" msprop:Generator_ColumnVarNameInTable="columnEmpresa" msprop:Generator_ColumnPropNameInRow="Empresa" msprop:Generator_ColumnPropNameInTable="EmpresaColumn" msprop:Generator_UserColumnName="Empresa" type="xs:string" minOccurs="0" />
+              <xs:element name="FechaInicial" msprop:Generator_ColumnVarNameInTable="columnFechaInicial" msprop:Generator_ColumnPropNameInRow="FechaInicial" msprop:Generator_ColumnPropNameInTable="FechaInicialColumn" msprop:Generator_UserColumnName="FechaInicial" type="xs:string" minOccurs="0" />
+              <xs:element name="FechaFinal" msprop:Generator_ColumnVarNameInTable="columnFechaFinal" msprop:Generator_ColumnPropNameInRow="FechaFinal" msprop:Generator_ColumnPropNameInTable="FechaFinalColumn" msprop:Generator_UserColumnName="FechaFinal" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

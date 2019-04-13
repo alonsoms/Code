@@ -1,0 +1,35 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="Content_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+    <link href="/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Content/MasterStyle.css" rel="stylesheet" />
+    <link href="/Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="/Content/Apariencia.css" rel="stylesheet" />
+
+    <script src="/Scripts/jquery-1.9.1.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+  
+</head>
+<body>
+
+    <nav class="navbar navbar-default">
+    </nav>
+    
+    <div class="container">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <script src="/Scripts/jquery-1.9.1.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+    
+</body>
+</html>
